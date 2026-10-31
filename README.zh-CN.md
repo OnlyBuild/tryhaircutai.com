@@ -10,7 +10,7 @@
 
 [![AI 发型试穿前后对比](assets/ai-haircut-try-on-before-after.webp)](https://tryhaircutai.com)
 
-**[▶ 免费试穿 —— 不再为理发后悔](https://tryhaircutai.com)** · 注册即送积分，无需绑卡。
+**[▶ 免费 AI 发型试穿 —— 不再为理发后悔](https://tryhaircutai.com)** · 注册即送积分，上传自拍就能试，无需绑卡。
 
 ---
 
@@ -32,7 +32,7 @@
 3. **生成** —— 模型约一分钟内完成渲染
 4. **对比保存** —— 前后对比视图，结果存入历史，随时拿给理发师看
 
-[在线演示 →](https://tryhaircutai.com)
+[在线体验 AI 发型生成器 →](https://tryhaircutai.com)
 
 ## 效果预览
 
@@ -59,7 +59,7 @@
   </tr>
 </table>
 
-> 这些是[首页](https://tryhaircutai.com) Hero 区域轮播的静帧 —— 网站上它们会以连续渐变动画轮播。
+> 这些是[AI 发型试穿首页](https://tryhaircutai.com) Hero 区域轮播的静帧 —— 网站上它们会以连续渐变动画轮播。
 
 ## 发型库
 
@@ -285,14 +285,14 @@
   </tr>
 </table>
 
-> 网站上的发型库持续更新 —— [点此浏览最新发型](https://tryhaircutai.com)。
+> 网站上的发型库持续更新 —— [用虚拟试发型工具，在线试试任意发型](https://tryhaircutai.com)。
 
 ## 功能
 
 **AI 试穿**
 - 图生图渲染，保留五官、头部姿态与光线
 - 145+ 发型，每款单独调校提示词（不是一句笼统的「剪短一点」）
-- 发色预览：金色、铜色、银灰、栗色、渐变色等
+- [AI 染发预览](https://tryhaircutai.com)：金色、铜色、银灰、栗色、渐变色等
 - 参考图模式：带上明星或 Pinterest 图作为目标
 
 **产品**
@@ -411,6 +411,6 @@ PROJECT_PLAN.zh-CN.md 产品规划：发型分类、路线图、SEO/GEO
 ---
 
 <p align="center">
-  <a href="https://tryhaircutai.com"><strong>▶ 剪发之前，先试一试</strong></a><br />
-  <sub><a href="https://tryhaircutai.com/pricing">定价</a> · <a href="https://tryhaircutai.com/blog">博客</a> · <a href="https://tryhaircutai.com/about">关于</a> · <a href="https://tryhaircutai.com/contact">联系</a></sub>
+  <a href="https://tryhaircutai.com"><strong>▶ 用 AI 在自己照片上试发型，再决定剪不剪</strong></a><br />
+  <sub><a href="https://tryhaircutai.com/pricing">AI 发型试穿定价</a> · <a href="https://tryhaircutai.com/blog">AI 发型博客</a> · <a href="https://tryhaircutai.com/about">关于</a> · <a href="https://tryhaircutai.com/contact">联系</a></sub>
 </p>

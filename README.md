@@ -10,7 +10,7 @@
 
 [![AI haircut try-on before and after](assets/ai-haircut-try-on-before-after.webp)](https://tryhaircutai.com)
 
-**[▶ Try it free — no salon regrets](https://tryhaircutai.com)** · Free credits on sign-up, no card required.
+**[▶ Free AI haircut try-on — no salon regrets](https://tryhaircutai.com)** · Sign up and try any hairstyle on your own photo, no card required.
 
 ---
 
@@ -32,7 +32,7 @@ A haircut is a two-week commitment you decide in ten seconds. Photoshopped celeb
 3. **Generate** — the model re-renders your photo wearing the cut in ~a minute.
 4. **Compare & keep** — before/after view; results are saved to your history so you can show a stylist later.
 
-[See a live demo →](https://tryhaircutai.com)
+[Try the AI hairstyle generator live →](https://tryhaircutai.com)
 
 ## Style previews
 
@@ -59,7 +59,7 @@ Every frame below is an AI try-on render: one person, one session, restyled from
   </tr>
 </table>
 
-> These are stills from the hero reel on the [homepage](https://tryhaircutai.com) — on the site they crossfade as one continuous morph.
+> These are stills from the hero reel on the [AI haircut try-on homepage](https://tryhaircutai.com) — on the site they crossfade as one continuous morph.
 
 ## The style library
 
@@ -285,14 +285,14 @@ The full library ships in [`assets/hairstyles/`](./assets/hairstyles) — 79 wom
   </tr>
 </table>
 
-> The site's library keeps growing — [browse the newest styles here](https://tryhaircutai.com).
+> The site's library keeps growing — [try any of these hairstyles online with the virtual haircut simulator](https://tryhaircutai.com).
 
 ## Features
 
 **AI try-on**
 - Image-to-image rendering that preserves identity, head pose, and lighting
 - 145+ styles with hand-tuned prompts per cut (not one generic "make it shorter")
-- Hair color previews: blonde, copper, silver, chestnut, ombré, and more
+- [AI hair color previews](https://tryhaircutai.com): blonde, copper, silver, chestnut, ombré, and more
 - Reference-photo mode: bring a celebrity or Pinterest look as the target
 
 **Product**
@@ -411,6 +411,6 @@ This repository (site copy, style library, docs, and configuration) is licensed 
 ---
 
 <p align="center">
-  <a href="https://tryhaircutai.com"><strong>▶ Try a haircut before you cut it</strong></a><br />
-  <sub><a href="https://tryhaircutai.com/pricing">Pricing</a> · <a href="https://tryhaircutai.com/blog">Blog</a> · <a href="https://tryhaircutai.com/about">About</a> · <a href="https://tryhaircutai.com/contact">Contact</a></sub>
+  <a href="https://tryhaircutai.com"><strong>▶ Try on any hairstyle with AI before you cut it</strong></a><br />
+  <sub><a href="https://tryhaircutai.com/pricing">AI haircut pricing & credits</a> · <a href="https://tryhaircutai.com/blog">AI hairstyle blog</a> · <a href="https://tryhaircutai.com/about">About</a> · <a href="https://tryhaircutai.com/contact">Contact</a></sub>
 </p>
