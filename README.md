@@ -6,7 +6,7 @@
 [![Live](https://img.shields.io/badge/live-tryhaircutai.com-22c55e.svg)](https://tryhaircutai.com)
 [![Runs on Cloudflare](https://img.shields.io/badge/runs%20on-Cloudflare%20Workers-f38020.svg)](https://workers.cloudflare.com/)
 
-> 中文说明 / Chinese: [`README.zh-CN.md`](./README.zh-CN.md) · Product plan: [`PROJECT_PLAN.md`](./PROJECT_PLAN.md)
+> English: this file · 中文: [`README.zh-CN.md`](./README.zh-CN.md) · Italiano: [`README.it.md`](./README.it.md) · Español: [`README.es.md`](./README.es.md) · Português: [`README.pt.md`](./README.pt.md) · Français: [`README.fr.md`](./README.fr.md) · Product plan: [`PROJECT_PLAN.md`](./PROJECT_PLAN.md)
 
 [![AI haircut try-on before and after](assets/ai-haircut-try-on-before-after.webp)](https://tryhaircutai.com)
 
