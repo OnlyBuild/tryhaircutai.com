@@ -1,0 +1,64 @@
+# tryhaircutai.com — deployment configuration example
+#
+# Copy to config.local.toml (gitignored) and fill in your own values.
+# Never commit real account IDs, bucket names with secrets, or API keys.
+
+[site]
+# Public name and canonical URL used for SEO metadata and emails.
+name = "TryHaircutAI"
+url = "https://tryhaircutai.com"
+# Default UI locale before the user picks one: "en" | "zh"
+default_locale = "en"
+
+[generation]
+# Credits debited per successful render (failed post-checks are never charged).
+credits_per_render = 1
+# Per-user daily cap; guards the model budget on abusive accounts.
+max_renders_per_day = 50
+# Identity lock: keep the subject's face across the image-to-image pass.
+# Lower it only if your model provider is weak at identity preservation.
+preserve_identity = true
+# Post-render validation: face count unchanged, no watermark bleed.
+post_check = true
+# Queue priority for subscribers: "plan-tier" | "flat"
+queue_mode = "plan-tier"
+
+[generation.style_overrides]
+# Optional per-style prompt weights, keyed by style filename stem.
+# Missing styles fall back to the library defaults.
+# pixie_cut = { weight = 1.2, color_variants = true }
+
+[storage]
+# R2 bucket binding name from wrangler.jsonc.
+bucket_binding = "BUCKET"
+# Max upload size per selfie, in bytes (default 8 MiB).
+max_upload_bytes = 8388608
+# Allowed upload content types.
+allowed_types = ["image/jpeg", "image/png", "image/webp"]
+
+[cache]
+# KV namespace binding used for edge-cached marketing pages.
+provider = "kv"
+
+[payments]
+# One of: "stripe" | "creem" | "waffo" | "" (empty disables checkout)
+provider = ""
+# Subscription plans to expose in pricing UI.
+enable_subscriptions = true
+# One-time credit packs (Starter / Pro / Ultimate).
+enable_credit_packs = true
+# Gift credits granted at sign-up, no card required.
+register_gift_credits = 10
+
+[mail]
+# "resend" | "cloudflare"
+provider = "cloudflare"
+# Shown in transactional emails.
+from_email = "TryHaircutAI <support@example.com>"
+support_email = "TryHaircutAI <support@example.com>"
+
+[seo]
+# Expose the style catalog to AI answer engines via /llms.txt and /llms-full.txt.
+llms_txt = true
+# Generate per-style image alt text from the library names.
+descriptive_alt_text = true
